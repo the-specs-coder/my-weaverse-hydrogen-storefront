@@ -285,7 +285,7 @@ export const schema = createSchema({
       },
       {
         type: "heading",
-        content: "Bring your brand to life.",
+        content: "Hello, Weaverse!",
         as: "h2",
         color: "#fff",
       },

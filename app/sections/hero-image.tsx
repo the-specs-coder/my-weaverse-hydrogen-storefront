@@ -70,7 +70,7 @@ export default function HeroImage(props: HeroImageProps & SectionProps) {
       })}
     >
 
-      Hello World
+      Hello World!!
       {children}
     </Section>
   );

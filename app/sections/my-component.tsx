@@ -10,7 +10,7 @@ interface HeroBannerProps extends HydrogenComponentProps {
   backgroundImage: string;
 }
 
-function HeroBanner(props: HeroBannerProps) {
+function HeroBanner1(props: HeroBannerProps) {
   const { 
     heading, 
     description, 
@@ -45,7 +45,7 @@ function HeroBanner(props: HeroBannerProps) {
   );
 }
 
-export default HeroBanner;
+export default HeroBanner1;
 
 export const schema = createSchema({
   type: "hero-banner",

@@ -45,6 +45,7 @@ import * as ProductTitle from "~/sections/main-product/product-title";
 import * as ProductVariantSelector from "~/sections/main-product/product-variant-selector";
 import * as ProductVendor from "~/sections/main-product/product-vendor";
 import * as MapSection from "~/sections/map";
+import HeroBanner from "~/sections/my-component";
 import * as NewsLetter from "~/sections/newsletter";
 import * as NewsLetterForm from "~/sections/newsletter/newsletter-form";
 import * as OurTeam from "~/sections/our-team";
@@ -64,6 +65,7 @@ import * as TestimonialItem from "~/sections/testimonials/item";
 import * as TestimonialItems from "~/sections/testimonials/items";
 import * as VideoEmbed from "~/sections/video-embed";
 import * as VideoEmbedItem from "~/sections/video-embed/video";
+import * as HeroBanner1 from "~/sections/my-component";
 
 export const components: HydrogenComponent[] = [
   SubHeading,
@@ -136,4 +138,5 @@ export const components: HydrogenComponent[] = [
   SlideShow,
   SlideShowSlide,
   Spacer,
+  HeroBanner1
 ];

@@ -27,7 +27,7 @@ function HeroBanner1(props: HeroBannerProps) {
       className="relative min-h-[500px] flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-red/40" />
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">{heading}</h1>
         <p className="text-lg md:text-xl mb-8">{description}</p>

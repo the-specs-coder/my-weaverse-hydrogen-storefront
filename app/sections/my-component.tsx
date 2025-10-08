@@ -58,7 +58,7 @@ export const schema = createSchema({
           type: "text",
           name: "heading",
           label: "Heading",
-          defaultValue: "Welcome to Our Store",
+          defaultValue: "Welcome",
           placeholder: "Enter heading text",
         },
         {

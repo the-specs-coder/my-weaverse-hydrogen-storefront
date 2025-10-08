@@ -69,6 +69,8 @@ export default function HeroImage(props: HeroImageProps & SectionProps) {
         enableTransparentHeader,
       })}
     >
+
+      Hello World
       {children}
     </Section>
   );

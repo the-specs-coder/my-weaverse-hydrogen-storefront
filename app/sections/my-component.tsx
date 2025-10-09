@@ -48,8 +48,8 @@ function HeroBanner1(props: HeroBannerProps) {
 export default HeroBanner1;
 
 export const schema = createSchema({
-  type: "hero-banner",
-  title: "Hero Banner",
+  type: "hero-banner-1",
+  title: "Hero Banner1",
   settings: [
     {
       group: "Content",

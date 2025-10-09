@@ -185,7 +185,6 @@ export default function HeroVideo(props: HeroVideoProps) {
         />
         <div ref={scope} className={clsx(variants({ gap }))}>
           {children}
-          Helllooooo
         </div>
       </div>
     </section>
